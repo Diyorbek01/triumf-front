@@ -1,0 +1,68 @@
+.tash_item{
+    width: 16%;
+    min-height: 343px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    /*float: left;*/
+}
+
+.img-box{
+    width: 144px;
+    height: 144px;
+    background: linear-gradient(189.52deg, #FFB571 -10.41%, #FA7800 106.43%);
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.text{
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #23202A;
+}
+
+.tash_item .btn-box button{
+    width:160px;
+    height:auto;
+    padding: 8px 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+}
+
+.tash_item .btn-box #royxat{
+    background: #7745E0;
+    color: white;
+    border: none;
+}
+
+.tash_item .btn-box #edit{
+    border: 1px solid #7745E0;
+    color:#7745E0;
+    background: transparent;
+}

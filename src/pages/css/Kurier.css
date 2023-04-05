@@ -1,0 +1,238 @@
+
+.main{
+    position: absolute;
+    left: 15%;
+    top: 0;
+}
+
+#child_modal{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    /*background-color:red;*/
+
+}
+
+.main > img{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+}
+
+#child_modal h1{
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #23202A;
+}
+
+#child_modal #get_image{
+    display: none;
+}
+
+#child_modal #img-box1{
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+    /*background: #FFFFFF;*/
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius:50%;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+#child_modal #img-box1 #show_image{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+#child_modal #input-group input{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    z-index: 2;
+}
+
+
+
+#child_modal #view{
+    z-index: 4;
+    position: relative;
+    top: -35px;
+    left: 90%;
+    cursor: pointer;
+}
+
+#child_modal #uzs{
+    position: relative;
+    top: -35px;
+    left: 82%;
+    z-index: 4;
+}
+
+
+#child_modal form  .toggle {
+    position : relative ;
+    display : inline-block;
+    width : 100%;
+    height : 35px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-content: center;
+}
+
+#child_modal form  .toggle:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #FF932F;
+    top: 4px;
+    left: 4px;
+    transition:  all 0.5s;
+}
+
+#child_modal form  .checkbox:checked + .toggle::after {
+    left : 50%;
+}
+
+#child_modal form  .checkbox {
+    display : none;
+}
+
+#child_modal #check{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+#child_modal #check span{
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #23202A !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    /*background: red;*/
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+}
+
+#child_modal #input-group #add{
+    background: #7745E0;
+    border-radius: 10px;
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 14px 38px;
+    border: none;
+}
+
+#child_modal #btn-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px
+}
+
+#child_modal #btn-box #clear{
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    color: #FF3131;
+    background: white;
+    border: none;
+    text-underline-style: none;
+}
+
+
+#child_modal #head-box{
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#child_modal #id{
+    display: none;
+}
+
+#child_modal #btn-box #delete{
+    background: white;
+    color: #f00;
+    border: none;
+}
+
+/* radio button group */
+
+.radio{
+    width: 100%;
+    height: auto;
+    margin-bottom:20px;
+}
+
+.radio label{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    padding: 8px 0;
+    margin: 3px;
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+}
+
+.radio label.active:hover{
+   color: #fff;
+}
+
+.radio input[type=radio]{
+    display: none;
+}
+
+
+.radio .active{
+    background: #FF932F;
+    border-radius: 5px;
+    color: white;
+}
+
+

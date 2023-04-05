@@ -1,0 +1,60 @@
+#right{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.nav-pills .nav-link .active {
+    background: red !important;
+}
+
+table thead tr{
+    border-top: none !important;
+
+}
+
+table thead th{
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: rgba(35, 32, 42, 0.6);
+}
+
+table thead th:nth-child(5){
+    color: #7745E0;
+    font-weight: 500;
+    font-size:17px;
+    display:flex;
+    align-items: center;
+    align-content: center;
+}
+
+table thead th input,tbody input {
+    width: 20px;
+    zoom: 1.5;
+    margin-right: 10px;
+}
+
+table tbody tr td{
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #23202A;
+}
+
+table thead input[type=checkbox]{
+    accent-color: #7745E0;
+}
+
+table input[type=checkbox]{
+    margin-top:0 !important;
+    accent-color: #7745E0;
+}
+

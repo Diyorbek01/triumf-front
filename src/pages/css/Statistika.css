@@ -1,0 +1,19 @@
+
+.main{
+    position: absolute;
+    left: 15%;
+    top: 0;
+}
+
+.main #sana{
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #23202A;
+}
+

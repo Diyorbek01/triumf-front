@@ -1,0 +1,43 @@
+
+.main{
+    position: absolute;
+    left: 15%;
+    top: 0;
+}
+
+.col-md-4 #jami,#tolov{
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #23202A;
+}
+
+table thead tr{
+    border-top: none !important;
+
+}
+
+table thead th{
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: rgba(35, 32, 42, 0.6);
+}
+
+table tbody tr td{
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #23202A;
+}

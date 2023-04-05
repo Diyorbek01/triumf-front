@@ -1,0 +1,81 @@
+.main{
+    width:85%;
+    height:100vh;
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+.nav li{
+    padding: 15px 70px !important;
+    /*background-color:red;*/
+}
+
+.nav{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    /*margin: 56px 30px;*/
+}
+
+.nav li.active{
+    border-top: 2px solid #FF932F;
+    z-index: 2;
+    color: #FF932F;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.nav li{
+    font-family: 'Mail Sans Roman' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: rgba(35, 32, 42, 0.6);
+    cursor: pointer;
+    /*margin: 0px 50px;*/
+}
+
+.Tabs{
+    margin-top:50px;
+    z-index: 1;
+}
+
+#tash-header{
+    margin-top:36px;
+    width:100%;
+    position: relative;
+    font-family: 'Mail Sans Roman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #23202A;
+
+}
+
+#tash-header #img-box{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: linear-gradient(189.52deg, #FFB571 -10.41%, #FA7800 106.43%);
+}
+
+.TabContent{
+    padding-left: 50px;
+}
